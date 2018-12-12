@@ -14,10 +14,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.8"
+        android:textSize="30sp"
         android:fontFamily="sans-serif-light"
         android:gravity="center_vertical|right"
-        android:maxLines="1"
-
         tools:text="0"/>
 
     <LinearLayout
@@ -102,14 +101,14 @@
 
         <Button
             android:id="@+id/btn_8"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:padding="8dp"
-            android:layout_marginRight="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
             android:layout_weight="1"
-            android:text="8"/>
+            android:padding="8dp"
+            android:text="8"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_9"
@@ -162,26 +161,27 @@
             android:layout_weight="1"
             android:text="5"/>
 
+
         <Button
             android:id="@+id/btn_6"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:padding="8dp"
-            android:layout_marginRight="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
             android:layout_weight="1"
-            android:text="6"/>
+            android:padding="8dp"
+            android:text="6"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_multiply"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:padding="8dp"
-            android:layout_marginRight="1dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
             android:layout_weight="1"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:text="*"/>
     </LinearLayout>
 
